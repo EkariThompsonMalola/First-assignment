@@ -1,0 +1,32 @@
+//Ekari Thompson Malola
+//NCE/SCI/172/23
+
+import java.util.Scanner;
+
+public class Average {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        //KULOWETSA MA NAMBALA
+        System.out.print("Okondedwa lowetsan nambala yoyamba: ");
+        double num1 = scanner.nextDouble();
+
+        //KULOWETSA NAMBALA YACHIWILI
+        System.out.print("Okondedwa lowetsani nambala yachiwili: ");
+        double num2 = scanner.nextDouble();
+
+        //KULOWETSA NAMBALA YACHITATU
+        System.out.print("Okondedwa lowetsani nambala yachitatu: ");
+        double num3 = scanner.nextDouble();
+
+        //KULOWETSA NAMBALA YACHINAYI
+        System.out.print("okondedwa lowetsani nambala yotsiliza: ");
+        double num4 = scanner.nextDouble();
+
+        //KUWONKHETSA MANAMBALA OMWE ALOWETSEDWA
+        double average = (num1 + num2 + num3 + num4) / 4.0;
+        System.out.println("The average is: " + average);
+
+        scanner.close();
+    }
+}
